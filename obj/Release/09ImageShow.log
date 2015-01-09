@@ -1,0 +1,114 @@
+﻿Build started 2015/1/9 14:06:41.
+     1>Project "D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\09ImageShow.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "obj\Release\09ImageShow.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\..\libs\openFrameworks /I..\..\..\libs\openFrameworks\graphics /I..\..\..\libs\openFrameworks\app /I..\..\..\libs\openFrameworks\sound /I..\..\..\libs\openFrameworks\utils /I..\..\..\libs\openFrameworks\communication /I..\..\..\libs\openFrameworks\video /I..\..\..\libs\openFrameworks\types /I..\..\..\libs\openFrameworks\math /I..\..\..\libs\openFrameworks\3d /I..\..\..\libs\openFrameworks\gl /I..\..\..\libs\openFrameworks\events /I..\..\..\libs\glut\include /I..\..\..\libs\rtAudio\include /I..\..\..\libs\quicktime\include /I..\..\..\libs\freetype\include /I..\..\..\libs\freetype\include\freetype2 /I..\..\..\libs\freeImage\include /I..\..\..\libs\fmodex\include /I..\..\..\libs\videoInput\include /I..\..\..\libs\glew\include\ /I..\..\..\libs\glu\include /I..\..\..\libs\tess2\include /I..\..\..\libs\cairo\include\cairo /I..\..\..\libs\poco\include /I..\..\..\libs\glfw\include /I..\..\..\libs\openssl\include /I..\..\..\addons /I..\..\..\addons\ofxGui\libs /I..\..\..\addons\ofxGui\src /I..\..\..\addons\ofxNetwork\libs /I..\..\..\addons\ofxNetwork\src /I..\..\..\addons\ofxThreadedImageLoader\libs /I..\..\..\addons\ofxThreadedImageLoader\src /I..\..\..\addons\ofxXmlSettings\libs /I..\..\..\addons\ofxXmlSettings\src /I..\..\..\addons\ofxFlash\libs /I..\..\..\addons\ofxFlash\src /I..\..\..\addons\ofxPrint\libs /I..\..\..\addons\ofxPrint\src /I..\..\..\addons\ofxCurl\src /I..\..\..\addons\ofxCurl\libs\include /I..\..\..\addons\ofxSimpleGuiToo\src /I..\..\..\addons\ofxMSAInteractiveObject\src /I..\..\..\addons\ofxSimpleGuiToo\src\Controls /I..\..\..\addons\ofxOpenCv\libs\opencv\include /I..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv /I..\..\..\addons\ofxOpenCv\libs\opencv\include\opencv2 /I..\..\..\addons\ofxOpenCv\src /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D POCO_STATIC /D CAIRO_WIN32_STATIC_BUILD /D DISABLE_SOME_FLOATING_POINT /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\Release\\" /Fd"obj\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\ofApp.cpp
+         ofApp.cpp
+     1>D:\01of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(126): warning C4250: 'Poco::InputStreamConverter' : inherits 'std::basic_istream<_Elem,_Traits>::std::basic_istream<_Elem,_Traits>::_Add_vtordisp1' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\istream(74) : see declaration of 'std::basic_istream<_Elem,_Traits>::_Add_vtordisp1'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>D:\01of_v0.8.4_vs_release\libs\poco\include\Poco/StreamConverter.h(144): warning C4250: 'Poco::OutputStreamConverter' : inherits 'std::basic_ostream<_Elem,_Traits>::std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2' via dominance
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 11.0\VC\include\ostream(90) : see declaration of 'std::basic_ostream<_Elem,_Traits>::_Add_vtordisp2'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\09ImageShow.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\addons\ofxOpenCv\libs\opencv\lib\vs /LIBPATH:..\..\..\libs\glut\lib\vs /LIBPATH:..\..\..\libs\glfw\lib\vs /LIBPATH:..\..\..\libs\rtAudio\lib\vs /LIBPATH:..\..\..\libs\FreeImage\lib\vs /LIBPATH:..\..\..\libs\freetype\lib\vs /LIBPATH:..\..\..\libs\quicktime\lib\vs /LIBPATH:..\..\..\libs\fmodex\lib\vs /LIBPATH:..\..\..\libs\videoInput\lib\vs /LIBPATH:..\..\..\libs\cairo\lib\vs /LIBPATH:..\..\..\libs\glew\lib\vs /LIBPATH:..\..\..\libs\glu\lib\vs /LIBPATH:..\..\..\libs\openssl\lib\vs /LIBPATH:..\..\..\libs\Poco\lib\vs /LIBPATH:..\..\..\libs\tess2\lib\vs opencv_calib3d231.lib opencv_contrib231.lib opencv_core231.lib opencv_features2d231.lib opencv_flann231.lib opencv_gpu231.lib opencv_haartraining_engine.lib opencv_highgui231.lib opencv_imgproc231.lib opencv_ml231.lib opencv_legacy231.lib opencv_objdetect231.lib opencv_video231.lib zlib.lib "cairo-static.lib" "pixman-1.lib" msimg32.lib OpenGL32.lib GLu32.lib kernel32.lib setupapi.lib Vfw32.lib comctl32.lib glut32.lib rtAudio.lib videoInput.lib libfreetype.lib FreeImage.lib qtmlClient.lib dsound.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib glew32s.lib fmodex_vc.lib glu32.lib crypt32.lib libeay32MD.lib ssleay32MD.lib PocoFoundationmd.lib PocoNetmd.lib PocoUtilmd.lib PocoXMLmd.lib Ws2_32.lib tess2.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:PocoFoundationd.lib /NODEFAULTLIB:atlthunk.lib /NODEFAULTLIB:LIBC.lib /NODEFAULTLIB:LIBCMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"bin\09ImageShow.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"bin\09ImageShow.lib" /MACHINE:X86 /SAFESEH obj\Release\icon.res
+         obj\Release\ofxCurl.obj
+         obj\Release\ofxCurlException.obj
+         obj\Release\ofxCurlFileDownload.obj
+         obj\Release\ofxCurlForm.obj
+         obj\Release\ofxCurlFormType.obj
+         obj\Release\ofxCurlFormTypeFile.obj
+         obj\Release\ofxCurlFormTypeInput.obj
+         obj\Release\ofxMSAInteractiveObject.obj
+         obj\Release\ofxCvColorImage.obj
+         obj\Release\ofxCvContourFinder.obj
+         obj\Release\ofxCvFloatImage.obj
+         obj\Release\ofxCvGrayscaleImage.obj
+         obj\Release\ofxCvHaarFinder.obj
+         obj\Release\ofxCvImage.obj
+         obj\Release\ofxCvShortImage.obj
+         obj\Release\ofxSimpleGuiButton.obj
+         obj\Release\ofxSimpleGuiColorPicker.obj
+         obj\Release\ofxSimpleGuiComboBox.obj
+         obj\Release\ofxSimpleGuiContent.obj
+         obj\Release\ofxSimpleGuiFPSCounter.obj
+         obj\Release\ofxSimpleGuiMovieSlider.obj
+         obj\Release\ofxSimpleGuiQuadWarp.obj
+         obj\Release\ofxSimpleGuiSlider2d.obj
+         obj\Release\ofxSimpleGuiTitle.obj
+         obj\Release\ofxSimpleGuiToggle.obj
+         obj\Release\ofxSimpleGuiConfig.obj
+         obj\Release\ofxSimpleGuiControl.obj
+         obj\Release\ofxSimpleGuiPage.obj
+         obj\Release\ofxSimpleGuiToo.obj
+         obj\Release\ofxSimpleGuiValueControl.obj
+         obj\Release\ofxThreadedDirLoader.obj
+         obj\Release\main.obj
+         obj\Release\ofApp.obj
+         obj\Release\ofxBaseGui.obj
+         obj\Release\ofxButton.obj
+         obj\Release\ofxGuiGroup.obj
+         obj\Release\ofxLabel.obj
+         obj\Release\ofxPanel.obj
+         obj\Release\ofxSlider.obj
+         obj\Release\ofxSliderGroup.obj
+         obj\Release\ofxToggle.obj
+         obj\Release\ofxTCPClient.obj
+         obj\Release\ofxTCPManager.obj
+         obj\Release\ofxTCPServer.obj
+         obj\Release\ofxUDPManager.obj
+         obj\Release\ofxThreadedImageLoader.obj
+         obj\Release\ofxXmlSettings.obj
+         obj\Release\tinyxml.obj
+         obj\Release\tinyxmlerror.obj
+         obj\Release\tinyxmlparser.obj
+         obj\Release\FlashPlayer.obj
+         obj\Release\ofxFlash.obj
+         obj\Release\ofxPrint.obj
+         obj\Release\ofxButtons.obj
+         D:\01of_v0.8.4_vs_release\libs\openFrameworksCompiled\lib\vs\openframeworksLib.lib
+            Creating library bin\09ImageShow.lib and object bin\09ImageShow.exp
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         09ImageShow.vcxproj -> D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\bin\09ImageShow.exe
+       PostBuildEvent:
+         xcopy /e /i /y "D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\..\..\..\export\vs\*.dll" "D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\bin"
+         :VCEnd
+         D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\..\..\..\export\vs\Assimp32.dll
+         D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\..\..\..\export\vs\fmodex.dll
+         D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\..\..\..\export\vs\fmodexL.dll
+         D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\..\..\..\export\vs\FreeImage.dll
+         D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\..\..\..\export\vs\FreeType-6.dll
+         D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\..\..\..\export\vs\glut32.dll
+         D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\..\..\..\export\vs\libeay32.dll
+         D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\..\..\..\export\vs\ssleay32.dll
+         D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\..\..\..\export\vs\Zlib.dll
+         复制了 9 个文件
+       FinalizeBuildStatus:
+         Deleting file "obj\Release\09ImageShow.unsuccessfulbuild".
+         Touching "obj\Release\09ImageShow.lastbuildstate".
+     1>Done Building Project "D:\01of_v0.8.4_vs_release\apps\20141231\09ImageShow\09ImageShow.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:17.84

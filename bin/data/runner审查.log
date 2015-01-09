@@ -1,0 +1,54 @@
+
+
+--------------------------------------- 2015-01-05-14-06-42-840
+[notice ] ofxButton::Set Button : 0
+[notice ] ofxButton::Set Button : 0
+[notice ] ofxButton::Set Button : 1
+[notice ] ofxButton::Set Button : 1
+[notice ] ofxButton::Set Button : 2
+[notice ] ofxButton::Set Button : 2
+[notice ] ofxButton::Set Button : 3
+[notice ] ofxButton::Set Button : 3
+[notice ] ofxButton::Setup of buttons
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0028.JPG
+[warning] ofThread: - name: Thread 3 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0027.JPG
+[warning] ofThread: - name: Thread 4 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0026.JPG
+[warning] ofThread: - name: Thread 5 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0025.JPG
+[warning] ofThread: - name: Thread 6 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0023.JPG
+[warning] ofThread: - name: Thread 7 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=80712.jpg
+[warning] ofThread: - name: Thread 8 - Calling startThread with verbose is deprecated.
+[notice ] Upload image : http://115.159.0.222/imageShowUpdate.php + 80712.jpg
+[notice ] array (
+)array (
+  'file' => 
+  array (
+    'name' => '80712.jpg',
+    'type' => 'image/jpeg',
+    'tmp_name' => '/tmp/phpGA2Y08',
+    'error' => 0,
+    'size' => 100816,
+  ),
+)Upload: 80712.jpg<br />Type: image/jpeg<br />Size: 98.453125 Kb<br />Temp file: /tmp/phpGA2Y08<br />Stored in: /var/www/data/upload/80712.jpg
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0023.JPG
+[warning] ofThread: - name: Thread 9 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=80712.jpg
+[warning] ofThread: - name: Thread 10 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0023.JPG
+[warning] ofThread: - name: Thread 11 - Calling startThread with verbose is deprecated.
+[notice ] Upload image : http://115.159.0.222/imageShowUpdate.php + DSC_0023.JPG
+[notice ] array (
+)array (
+  'file' => 
+  array (
+    'name' => 'DSC_0023.JPG',
+    'type' => '',
+    'tmp_name' => '',
+    'error' => 1,
+    'size' => 0,
+  ),
+)Invalid file

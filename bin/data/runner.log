@@ -1,0 +1,28 @@
+
+
+--------------------------------------- 2015-01-09-00-35-44-911
+[notice ] ofxButton::Set Button : 0
+[notice ] ofxButton::Set Button : 0
+[notice ] ofxButton::Set Button : 1
+[notice ] ofxButton::Set Button : 1
+[notice ] ofxButton::Set Button : 2
+[notice ] ofxButton::Set Button : 2
+[notice ] ofxButton::Set Button : 3
+[notice ] ofxButton::Set Button : 3
+[notice ] ofxButton::Setup of buttons
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0023.JPG
+[warning] ofThread: - name: Thread 3 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0023 (6).JPG
+[warning] ofThread: - name: Thread 4 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0023 (5).JPG
+[warning] ofThread: - name: Thread 5 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0023 (4).JPG
+[warning] ofThread: - name: Thread 6 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0023 (3).JPG
+[warning] ofThread: - name: Thread 7 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=DSC_0023 (2).JPG
+[warning] ofThread: - name: Thread 8 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=80712.png
+[warning] ofThread: - name: Thread 9 - Calling startThread with verbose is deprecated.
+[notice ] Update Url : http://115.159.0.222/imageShow.php?name=20150109003525.jpg
+[warning] ofThread: - name: Thread 10 - Calling startThread with verbose is deprecated.

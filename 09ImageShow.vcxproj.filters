@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPClient.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.cpp">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxThreadedImageLoader\src\ofxThreadedImageLoader.cpp">
+      <Filter>addons\ofxThreadedImageLoader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFlash\src\FlashPlayer.cpp">
+      <Filter>addons\ofxFlash\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxFlash\src\ofxFlash.cpp">
+      <Filter>addons\ofxFlash\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPrint\src\ofxPrint.cpp">
+      <Filter>addons\ofxPrint\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCurl\src\ofxCurl.cpp">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCurl\src\ofxCurlException.cpp">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCurl\src\ofxCurlFileDownload.cpp">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCurl\src\ofxCurlForm.cpp">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCurl\src\ofxCurlFormType.cpp">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCurl\src\ofxCurlFormTypeFile.cpp">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxCurl\src\ofxCurlFormTypeInput.cpp">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofxButtons.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiConfig.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiControl.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiPage.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiToo.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiValueControl.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiButton.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiColorPicker.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiComboBox.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiContent.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiFPSCounter.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiMovieSlider.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiQuadWarp.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSlider2d.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiTitle.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiToggle.cpp">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.cpp">
+      <Filter>addons\ofxMSAInteractiveObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxThreadedImageLoader\src\ofxThreadedDirLoader.cpp">
+      <Filter>addons\ofxThreadedImageLoader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.cpp">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui">
+      <UniqueIdentifier>{4F2A59AF-5F4E-704B-D067-EC13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui\src">
+      <UniqueIdentifier>{645E9533-4DCD-6179-1CDF-CB65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNetwork">
+      <UniqueIdentifier>{01A15744-29A6-108D-08E9-83A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxNetwork\src">
+      <UniqueIdentifier>{3D1C10C7-8F35-E796-9C70-F5F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxThreadedImageLoader">
+      <UniqueIdentifier>{4FCFBE74-4716-4092-C67F-91AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxThreadedImageLoader\src">
+      <UniqueIdentifier>{96E590A4-6AB6-FE3D-02EC-8D08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFlash">
+      <UniqueIdentifier>{A980F8CE-67E9-5DBC-8438-2DC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxFlash\src">
+      <UniqueIdentifier>{86DF8B02-993D-CA10-2713-9E4D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPrint">
+      <UniqueIdentifier>{F7D4CEFF-E57A-388F-68BA-68A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPrint\src">
+      <UniqueIdentifier>{9524A8B7-5402-EE6E-E01B-62C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCurl">
+      <UniqueIdentifier>{f4e77e71-2ab3-4593-9752-085304cf8db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCurl\src">
+      <UniqueIdentifier>{0761f133-d1f3-4984-8609-df64a4e7bb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCurl\lib">
+      <UniqueIdentifier>{95ccb97c-bd1c-4aa3-8112-d67b2fee01cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxCurl\lib\include">
+      <UniqueIdentifier>{996e9866-c8e1-42c6-9473-2ba0152876bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSimpleGuiToo.h">
+      <UniqueIdentifier>{f064ae92-10be-4a54-9fe7-60bb6aac319c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSimpleGuiToo.h\Controls">
+      <UniqueIdentifier>{afd2b3a3-fd96-4e6c-8be6-37e51aa9ac37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxMSAInteractiveObject">
+      <UniqueIdentifier>{389c083d-6cc4-419f-9964-4bf3b746ed15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxOpenCv">
+      <UniqueIdentifier>{ee7d54f7-54a9-4fe8-aa9c-6a16caa4bea3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxNetwork.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxNetworkUtils.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPClient.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPManager.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxTCPServer.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxNetwork\src\ofxUDPManager.h">
+      <Filter>addons\ofxNetwork\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxThreadedImageLoader\src\ofxThreadedImageLoader.h">
+      <Filter>addons\ofxThreadedImageLoader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFlash\src\FlashPlayer.h">
+      <Filter>addons\ofxFlash\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFlash\src\ofxFlash.h">
+      <Filter>addons\ofxFlash\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxFlash\src\ShockwaveFlash.h">
+      <Filter>addons\ofxFlash\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPrint\src\ofxPrint.h">
+      <Filter>addons\ofxPrint\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\src\ofxCurl.h">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\src\ofxCurlException.h">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\src\ofxCurlFileDownload.h">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\src\ofxCurlForm.h">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\src\ofxCurlFormType.h">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\src\ofxCurlFormTypeFile.h">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\src\ofxCurlFormTypeInput.h">
+      <Filter>addons\ofxCurl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\libs\include\curl.h">
+      <Filter>addons\ofxCurl\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\libs\include\curlbuild.h">
+      <Filter>addons\ofxCurl\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\libs\include\curlrules.h">
+      <Filter>addons\ofxCurl\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\libs\include\curlver.h">
+      <Filter>addons\ofxCurl\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\libs\include\easy.h">
+      <Filter>addons\ofxCurl\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\libs\include\mprintf.h">
+      <Filter>addons\ofxCurl\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\libs\include\multi.h">
+      <Filter>addons\ofxCurl\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\libs\include\stdcheaders.h">
+      <Filter>addons\ofxCurl\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\libs\include\typecheck-gcc.h">
+      <Filter>addons\ofxCurl\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxCurl\libs\include\types.h">
+      <Filter>addons\ofxCurl\lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofxButtons.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiConfig.h">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiControl.h">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiIncludes.h">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiPage.h">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiToo.h">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\ofxSimpleGuiValueControl.h">
+      <Filter>addons\ofxSimpleGuiToo.h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiButton.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiColorPicker.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiComboBox.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiContent.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiFPSCounter.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiMovieSlider.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiQuadWarp.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSlider2d.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderBase.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderFloat.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiSliderInt.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiTitle.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSimpleGuiToo\src\Controls\ofxSimpleGuiToggle.h">
+      <Filter>addons\ofxSimpleGuiToo.h\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxMSAInteractiveObject\src\ofxMSAInteractiveObject.h">
+      <Filter>addons\ofxMSAInteractiveObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxThreadedImageLoader\src\ofxThreadedDirLoader.h">
+      <Filter>addons\ofxThreadedImageLoader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvBlob.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvColorImage.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvConstants.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvContourFinder.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvFloatImage.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvGrayscaleImage.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvHaarFinder.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvImage.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxCvShortImage.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxOpenCv\src\ofxOpenCv.h">
+      <Filter>addons\ofxOpenCv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>

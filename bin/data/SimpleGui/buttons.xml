@@ -1,0 +1,34 @@
+<controls>
+    <SliderFloat_0_X_>
+        <name>0 X </name>
+        <value>6.829999924</value>
+    </SliderFloat_0_X_>
+    <SliderFloat_0_Y_>
+        <name>0 Y </name>
+        <value>299.519989014</value>
+    </SliderFloat_0_Y_>
+    <SliderFloat_1_X_>
+        <name>1 X </name>
+        <value>1256.719970703</value>
+    </SliderFloat_1_X_>
+    <SliderFloat_1_Y_>
+        <name>1 Y </name>
+        <value>299.520019531</value>
+    </SliderFloat_1_Y_>
+    <SliderFloat_2_X_>
+        <name>2 X </name>
+        <value>13.659999847</value>
+    </SliderFloat_2_X_>
+    <SliderFloat_2_Y_>
+        <name>2 Y </name>
+        <value>602.880004883</value>
+    </SliderFloat_2_Y_>
+    <SliderFloat_3_X_>
+        <name>3 X </name>
+        <value>1229.400024414</value>
+    </SliderFloat_3_X_>
+    <SliderFloat_3_Y_>
+        <name>3 Y </name>
+        <value>645.119995117</value>
+    </SliderFloat_3_Y_>
+</controls>
